@@ -11,7 +11,7 @@ from tkinter import messagebox
 
 import numpy as np
 
-from core.fdtd_solver import FDTDSolver
+from core.fdtd_solver import FDTDSolver1D as FDTDSolver
 from core.material import layered_medium
 from visualization.animation import animate_field
 from visualization.plot_signal import plot_time_signal
