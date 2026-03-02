@@ -12,9 +12,9 @@ from tkinter import messagebox
 import numpy as np
 
 from core.fdtd_solver import FDTDSolver1D as FDTDSolver
-from core.material import layered_medium
+from core.material import Material as layered_medium
 from visualization.animation import animate_field
-from visualization.plot_signal import plot_time_signal
+from visualization.plot_signal import plot_signal as plot_time_signal
 
 
 class EMScopeApp:
